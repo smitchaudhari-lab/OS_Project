@@ -1,32 +1,80 @@
-# OS Project
+# OS Project – System Monitoring Dashboard with CPU Scheduling Visualizer
 
-CPU Scheduling Visualizer and System Monitoring Dashboard built using Python and C.
+A Linux-based Operating System project focused on **Real-Time System Monitoring**, built using **Python** and **C**.
 
-## Features
+The project provides a graphical dashboard to monitor system resources live while also including CPU scheduling algorithm simulations with Gantt chart visualization.
 
-- FCFS Scheduling
-- SJF Scheduling
-- Round Robin Scheduling
+---
+
+# Main Features
+
+## Real-Time System Monitoring (Core Feature)
+
+- **Live CPU Usage Monitoring**
+- **Memory (RAM) Usage Tracking**
+- **Running Process Monitoring**
+- **System Log Tracking**
+- **Resource Usage Visualization**
+- **Interactive Monitoring Dashboard**
+- **Live System Performance Display**
+
+---
+
+## CPU Scheduling Module
+
+- **FCFS (First Come First Serve)**
+- **SJF (Shortest Job First)**
+- **Round Robin Scheduling**
 - Waiting Time Calculation
-- Average Turnaround Time
+- Average Turnaround Time Calculation
 - Gantt Chart Visualization
-- System Monitoring Dashboard
 
-## Tech Stack
+---
 
-- Python
+# Tech Stack
+
+- Python 3
 - C
 - Tkinter
-- Linux (Kali)
+- Linux (Kali Linux)
 
-## Project Structure
+---
 
+# Project Structure
+
+- `Python_Code/` → Main monitoring scripts
 - `C_Code/` → CPU scheduling algorithms
-- `Python_Code/` → GUI and monitoring scripts
 - `dashboard.py` → Main dashboard launcher
+- `system_log.txt` → Generated system logs
 
-## Run Project
+---
+
+# Run Project
+
+```bash
+python3 dashboard.py
+```
+
+If required on Linux:
 
 ```bash
 sudo python3 dashboard.py
 ```
+
+---
+
+# Project Highlights
+
+✔ Real-Time CPU Monitoring  
+✔ RAM Monitoring  
+✔ Process Monitoring  
+✔ System Log Tracking  
+✔ Interactive Dashboard GUI  
+✔ CPU Scheduling Simulation  
+✔ Gantt Chart Visualization  
+
+---
+
+# Author
+
+**Smit Chaudhari**

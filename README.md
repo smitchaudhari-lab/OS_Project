@@ -28,4 +28,5 @@ CPU Scheduling Visualizer and System Monitoring Dashboard built using Python and
 ## Run Project
 
 ```bash
-python dashboard.py
+sudo python3 dashboard.py
+```

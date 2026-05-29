@@ -1,3 +1,4 @@
-*.class
+scheduler
+*.out
+system_log.txt
 __pycache__/
-*.log
